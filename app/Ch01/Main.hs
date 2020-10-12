@@ -19,6 +19,13 @@
 -- main = interat wordCount
 --     where wordCount input = show (length (lines input) ++ "\n"
 -- @
+--
+-- To run the program:
+--
+-- @
+--   $ cabal v2-run :WC < data/quux.txt
+--   7
+-- @
 
 module Main (main) where
 
