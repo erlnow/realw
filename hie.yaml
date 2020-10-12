@@ -1,0 +1,19 @@
+cradle:
+  cabal:
+    - path: "src"
+      component: "lib:realw"
+
+    - path: "app/Main.hs"
+      component: "realw:exe:sample"
+
+    - path: "app/Paths_realw.hs"
+      component: "realw:exe:sample"
+
+    - path: "test/doctest"
+      component: "realw:test:doctest"
+
+    - path: "test/spec"
+      component: "realw:test:realhw-test"
+
+    - path: "test"
+      component: "realw:test:sample-test"

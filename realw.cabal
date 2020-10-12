@@ -1,0 +1,99 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.31.2.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: f950ba518141966a3b900a027789d223113eb5bcd302ce91cbc1b356afcebccf
+
+name:           realw
+version:        0.1.0.0
+synopsis:       Real World Haskell
+description:    Please see the README on GitHub at <https://github.com/erlnow/realh#readme>
+category:       Learning
+homepage:       https://github.com/erlnow/realw#readme
+bug-reports:    https://github.com/erlnow/realw/issues
+author:         Eduardo Ramón Lestau
+maintainer:     erlestau@gmail.com
+copyright:      (c) 2020-2030 Eduardo Ramón Lestau
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+extra-source-files:
+    ChangeLog.md
+    README.md
+    TODO
+    LICENSE
+
+source-repository head
+  type: git
+  location: https://github.com/erlnow/realw
+
+library
+  exposed-modules:
+      MyLib
+  other-modules:
+      Paths_realw
+  hs-source-dirs:
+      src
+  ghc-options: -Wall
+  build-depends:
+      base >=4.7 && <5
+  default-language: Haskell2010
+
+executable sample
+  main-is: Main.hs
+  other-modules:
+      Paths_realw
+  hs-source-dirs:
+      app
+  ghc-options: -Wall
+  build-depends:
+      base >=4.7 && <5
+    , realw
+  default-language: Haskell2010
+
+test-suite doctest
+  type: exitcode-stdio-1.0
+  main-is: Main.hs
+  other-modules:
+      Paths_realw
+  hs-source-dirs:
+      test/doctest
+  ghc-options: -Wall
+  build-depends:
+      QuickCheck
+    , base >=4.7 && <5
+    , doctest >=0.8
+    , realw
+  default-language: Haskell2010
+
+test-suite realhw-test
+  type: exitcode-stdio-1.0
+  main-is: Spec.hs
+  other-modules:
+      Paths_realw
+  hs-source-dirs:
+      test/spec
+  ghc-options: -Wall
+  build-tool-depends:
+      hspec-discover:hspec-discover
+  build-depends:
+      QuickCheck
+    , base >=4.7 && <5
+    , hspec ==2.*
+    , realw
+  default-language: Haskell2010
+
+test-suite sample-test
+  type: exitcode-stdio-1.0
+  main-is: MyLibTest.hs
+  other-modules:
+      Paths_realw
+  hs-source-dirs:
+      test
+  ghc-options: -Wall
+  build-depends:
+      base >=4.7 && <5
+    , realw
+  default-language: Haskell2010

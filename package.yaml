@@ -1,0 +1,58 @@
+name:                realw
+version:             0.1.0.0
+synopsis:            "Real World Haskell"
+description:         "Please see the README on GitHub at <https://github.com/erlnow/realh#readme>"
+# homepage:            https://github.com/erlnow/realw#readme
+# -- bug-reports:
+github:              "erlnow/realw"
+license:             BSD3
+license-file:        LICENSE
+author:              Eduardo Ramón Lestau
+maintainer:          erlestau@gmail.com
+copyright:           "(c) 2020-2030 Eduardo Ramón Lestau"
+category:            Learning
+build-type:          Simple
+
+extra-source-files:
+  - ChangeLog.md
+  - README.md
+  - TODO
+  - LICENSE
+
+dependencies:
+  - base >= 4.7 && < 5
+
+ghc-options:
+  -Wall
+
+library:
+  source-dirs: src
+
+executables:
+  sample:
+    source-dirs: app
+    main: Main.hs
+    dependencies:
+      - realw
+
+tests:
+  sample-test:
+    source-dirs: test
+    main: MyLibTest.hs
+    dependencies:
+      - realw
+  realhw-test:
+    source-dirs: test/spec
+    main: Spec.hs
+    dependencies:
+      - realw
+      - hspec == 2.*
+      - QuickCheck
+    build-tools: hspec-discover
+  doctest:
+    source-dirs: test/doctest
+    main: Main.hs
+    dependencies:
+      - realw
+      - doctest >= 0.8
+      - QuickCheck
