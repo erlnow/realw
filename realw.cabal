@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: f950ba518141966a3b900a027789d223113eb5bcd302ce91cbc1b356afcebccf
+-- hash: 14ffc8eb1835e3097abe458fc0c89892265e87e34c81a3ec7e5650bb0d028f1e
 
 name:           realw
 version:        0.1.0.0
@@ -31,6 +31,7 @@ source-repository head
 
 library
   exposed-modules:
+      Ch00.KMinima
       MyLib
   other-modules:
       Paths_realw
@@ -68,10 +69,11 @@ test-suite doctest
     , realw
   default-language: Haskell2010
 
-test-suite realhw-test
+test-suite realh-test
   type: exitcode-stdio-1.0
   main-is: Spec.hs
   other-modules:
+      Ch00Spec
       Paths_realw
   hs-source-dirs:
       test/spec

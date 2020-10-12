@@ -41,7 +41,7 @@ tests:
     main: MyLibTest.hs
     dependencies:
       - realw
-  realhw-test:
+  realh-test:
     source-dirs: test/spec
     main: Spec.hs
     dependencies:

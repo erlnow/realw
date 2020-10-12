@@ -13,7 +13,7 @@ cradle:
       component: "realw:test:doctest"
 
     - path: "test/spec"
-      component: "realw:test:realhw-test"
+      component: "realw:test:realh-test"
 
     - path: "test"
       component: "realw:test:sample-test"
