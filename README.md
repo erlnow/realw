@@ -2,9 +2,9 @@
 
 Examples and exercises from the book:
 
-  **Real World Haskell**
-  by Bryan O'Sullivan, John Goerzen, and Don Stewart
-  O'Reilly Media, Inc., November 2008
+>  **Real World Haskell**  
+>  by Bryan O'Sullivan, John Goerzen, and Don Stewart  
+>  O'Reilly Media, Inc., November 2008
 
 This [book][rwh] is one of the recommended books in [Yorgey's Course][yoc]
 
