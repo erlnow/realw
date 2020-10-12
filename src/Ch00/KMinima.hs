@@ -7,7 +7,7 @@
 -- Stability   :  experimental
 -- Portability :  unknown
 --
--- example from 
+-- example from Preface, p. xxiv
 -- 
 -- Note to run tests:
 --
