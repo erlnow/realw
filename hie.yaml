@@ -3,10 +3,16 @@ cradle:
     - path: "src"
       component: "lib:realw"
 
-    - path: "app/Main.hs"
+    - path: "app/Ch01/WC.hs"
+      component: "realw:exe:WC"
+
+    - path: "app/Ch01/Paths_realw.hs"
+      component: "realw:exe:WC"
+
+    - path: "app/sample/Main.hs"
       component: "realw:exe:sample"
 
-    - path: "app/Paths_realw.hs"
+    - path: "app/sample/Paths_realw.hs"
       component: "realw:exe:sample"
 
     - path: "test/doctest"

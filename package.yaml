@@ -18,6 +18,7 @@ extra-source-files:
   - README.md
   - TODO
   - LICENSE
+  - data/*
 
 dependencies:
   - base >= 4.7 && < 5
@@ -30,10 +31,13 @@ library:
 
 executables:
   sample:
-    source-dirs: app
+    source-dirs: app/sample
     main: Main.hs
     dependencies:
       - realw
+  WC:
+    source-dirs: app/Ch01
+    main: Main.hs
 
 tests:
   sample-test:
