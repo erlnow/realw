@@ -1,5 +1,6 @@
 -- |
 -- Module      :  KMinima
+-- Description :  minima example
 -- Copyright   :  erlnow 2020 - 2030
 -- License     :  BSD3
 --
