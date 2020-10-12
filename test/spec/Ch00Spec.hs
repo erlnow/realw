@@ -12,7 +12,7 @@
 -- Note to run tests:
 --
 -- @
---      $ cabal new-run spec
+--      $ cabal new-run realh-test
 -- @
 --
 -- or in @ghci@:

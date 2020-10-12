@@ -13,14 +13,14 @@
 -- Note to run tests:
 --
 -- @
---      $ cabal new-run spec
+--      $ cabal new-run realh-test
 -- @
 --
 -- or in @ghci@:
 --
 -- @
---      $ cabal new-repl spec
---      ghci> hspec KMinimaSpec.spec
+--      $ cabal new-repl realh-test
+--      ghci> hspec Ch00.spec
 -- @
 --
 -- Original source:
