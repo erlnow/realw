@@ -4,10 +4,10 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 95915f6ea7be75967c2be9899e54cd9c4c1b9b7b74fb9c974ec33cc48ea11080
+-- hash: 4a608f472460aa2a602436199c5f5e7872966cb037d556d3852b2f7905d95801
 
 name:           realw
-version:        0.1.0.0
+version:        0.1.0.1
 synopsis:       Real World Haskell
 description:    Please see the README on GitHub at <https://github.com/erlnow/realh#readme>
 category:       Learning

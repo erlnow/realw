@@ -1,0 +1,1 @@
+* parse arguments ["-l","-c","-w"] in WC.hs in order to better mimic `wc`.

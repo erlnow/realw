@@ -32,3 +32,7 @@ module Main (main) where
 main :: IO()
 main = interact wordCount
   where wordCount input = show (length (lines input)) ++ "\n"
+                       -- Exercise 3, p. 16 (print words)
+                       ++ show (length (words input)) ++ "\n"
+                       -- Exercise 4, p. 17 (print characters)
+                       ++ show (length (input)) ++ "\n"

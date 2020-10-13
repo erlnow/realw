@@ -1,6 +1,24 @@
 # Revision history for realw
 
-## 0.1.0.0 -- 2020-10-13
+## 0.1.0.1 -- 2020-10-13
+
+Chapter 1: Getting Started
+
+### Added
+
+* app/Ch01/Main.hs (exe:WC component; in the book is ch01/WC.hs)
+* data/quux.tx     (cities, uses as data for exe:WC)
+* TODO
+
+### Changed
+
+* app/Ch01/Main.hs for exercise 3 and 4
+* Moved 'app/Main.hs' to 'app/sample/Main.hs' for better app isolation
+* ChangeLog.md
+* hie.yaml
+* package.yaml
+* realw.cabal
+
 
 ### Added 
 
