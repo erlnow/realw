@@ -3,7 +3,7 @@ cradle:
     - path: "src"
       component: "lib:realw"
 
-    - path: "app/Ch01/WC.hs"
+    - path: "app/Ch01/Main.hs"
       component: "realw:exe:WC"
 
     - path: "app/Ch01/Paths_realw.hs"
