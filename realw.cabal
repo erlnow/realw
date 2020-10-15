@@ -4,10 +4,10 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 4a608f472460aa2a602436199c5f5e7872966cb037d556d3852b2f7905d95801
+-- hash: 09daee98b18dfaac25276d0fea378ea872ff601abd17e44437e3fedb1eb13761
 
 name:           realw
-version:        0.1.0.1
+version:        0.1.0.2
 synopsis:       Real World Haskell
 description:    Please see the README on GitHub at <https://github.com/erlnow/realh#readme>
 category:       Learning
@@ -33,6 +33,12 @@ source-repository head
 library
   exposed-modules:
       Ch00.KMinima
+      Ch02.Add
+      Ch02.Assign
+      Ch02.LastButOne
+      Ch02.MyDrop
+      Ch02.RoundToEven
+      Ch02.ShortCircuit
       MyLib
   other-modules:
       Paths_realw

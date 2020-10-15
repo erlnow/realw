@@ -1,5 +1,25 @@
 # Revision history for realw
 
+## 0.1.0.2 -- 2020-10-15
+
+Chapter 2: Types an functions
+
+### Added
+
+* Setup.hs                      (cabal seems to ignore this file)
+* src/Ch02/Add.hs               (example from p. 28)
+* src/Ch02/Assign.hs            (example from p. 29)
+* src/Ch02/MyDrop.hs            (example from p. 29)
+* src/Ch02/RoundToEven.hs       (example from p. 32)
+* src/Ch02/ShortCircuit.hs      (example from p. 34)
+* src/Ch02/LastButOne.hs        (exercise from p. 39)
+
+### Changed
+
+* ChangeLog.md          (version change)
+* package.yaml
+* realw.cabal
+
 ## 0.1.0.1 -- 2020-10-13
 
 Chapter 1: Getting Started
@@ -7,7 +27,7 @@ Chapter 1: Getting Started
 ### Added
 
 * app/Ch01/Main.hs (exe:WC component; in the book is ch01/WC.hs)
-* data/quux.tx     (cities, uses as data for exe:WC)
+* data/quux.txt    (cities, uses as data for exe:WC)
 * TODO
 
 ### Changed
