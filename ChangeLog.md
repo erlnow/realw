@@ -12,6 +12,8 @@ Chapter 3: Defining Types, Streamlining Functions
 * src/Ch03/AlgebraicVector.hs   (example from p. 46)
 * src/Ch03/Roygbiv.hs           (example from p. 48)
 * src/Ch03/ShapeUnion.hs        (example from p. 49)
+* src/Ch03/Add.hs               (example from p. 50)
+* src/Ch03/Tuples.hs            (example from p. 52)
 
 ### Changed
 
