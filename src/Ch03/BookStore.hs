@@ -61,3 +61,12 @@ data BillingInfo = CreditCard CardNumber CardHolder Address
 
 -- Pattern Matching, p. 53
 -- Further Adventures
+
+bookID      (Book id title authors) = id
+bookTitle   (Book id title authors) = title
+bookAuthors (Book id title authors) = authors
+
+-- The wild card pattern, p. 53
+nicerID      (Book id _     _      ) = id
+nicerTitle   (Book _  title _      ) = title
+nicerAuthors (Book _  _     authors) = authors
