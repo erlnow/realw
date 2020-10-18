@@ -1,5 +1,24 @@
 # Revision history for realw
 
+## 0.1.0.3 -- 2020-10-18
+
+Chapter 3: Defining Types, Streamlining Functions
+
+### Added
+
+* src/Ch03/BookStore.hs         (example used throughout entire chapter)
+* src/Ch03/Bool.hs              (example from p. 44) 
+* src/Ch03/Distinction.hs       (example from p. 46)
+* src/Ch03/AlgebraicVector.hs   (example from p. 46)
+* src/Ch03/Roygbiv.hs           (example from p. 48)
+* src/Ch03/ShapeUnion.hs        (example from p. 49)
+
+### Changed
+
+* ChangeLog.md
+* package.yaml                  (new version)
+* realw.cabal
+
 ## 0.1.0.2 -- 2020-10-15
 
 Chapter 2: Types an functions

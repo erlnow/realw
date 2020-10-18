@@ -4,10 +4,10 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 09daee98b18dfaac25276d0fea378ea872ff601abd17e44437e3fedb1eb13761
+-- hash: 9d791784bad0aa748a0e63f91b99f480407bb94eabe8a5ac0d5f0f645d61c4ed
 
 name:           realw
-version:        0.1.0.2
+version:        0.1.0.3
 synopsis:       Real World Haskell
 description:    Please see the README on GitHub at <https://github.com/erlnow/realh#readme>
 category:       Learning
@@ -39,6 +39,11 @@ library
       Ch02.MyDrop
       Ch02.RoundToEven
       Ch02.ShortCircuit
+      Ch03.AlgebraicVector
+      Ch03.BookStore
+      Ch03.Bool
+      Ch03.Distinction
+      Ch03.Roygbiv
       MyLib
   other-modules:
       Paths_realw
