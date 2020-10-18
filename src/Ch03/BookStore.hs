@@ -9,19 +9,6 @@
 -- Portability :  unknown
 --
 -- Example from Chapter 3: Defining Types, Streamlining Functions
--- 
--- Note to run tests:
---
--- @
---      $ cabal new-run spec
--- @
---
--- or in @ghci@:
---
--- @
---      $ cabal new-repl spec
---      ghci> hspec Ch03.BookStoreSpec.spec
--- @
 
 module Ch03.BookStore where
 
@@ -71,3 +58,6 @@ data BillingInfo = CreditCard CardNumber CardHolder Address
 --      char *name;
 --      char **authors;
 --  };
+
+-- Pattern Matching, p. 53
+-- Further Adventures

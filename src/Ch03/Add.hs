@@ -9,7 +9,6 @@
 -- Portability :  unknown
 --
 -- Example from Chapter 3: Defining Types, Streamlining Functions 
--- 
 
 module Ch03.Add where
 

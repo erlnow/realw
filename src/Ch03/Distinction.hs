@@ -9,19 +9,6 @@
 -- Portability :  unknown
 --
 -- Example from Chapter 3: Defining Types, Streamlining Functions
--- 
--- Note to run tests:
---
--- @
---      $ cabal new-run spec
--- @
---
--- or in @ghci@:
---
--- @
---      $ cabal new-repl spec
---      ghci> hspec Ch03.DistinctionSpec.spec
--- @
 
 module Ch03.Distinction where
 
