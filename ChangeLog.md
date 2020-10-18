@@ -21,7 +21,7 @@ Chapter 3: Defining Types, Streamlining Functions
 
 ## 0.1.0.2 -- 2020-10-15
 
-Chapter 2: Types an functions
+Chapter 2: Types and functions
 
 ### Added
 

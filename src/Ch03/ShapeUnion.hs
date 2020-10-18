@@ -1,5 +1,5 @@
 -- |
--- Module      :  ShapeUnion
+-- Module      :  Ch03.ShapeUnion
 -- Description :  Analogues to Algebraic Data Types in Other Languages
 -- Copyright   :  erlnow 2020 - 2030
 -- License     :  BSD3
@@ -23,7 +23,7 @@
 --      ghci> hspec ShapeUnionSpec.spec
 -- @
 
-module ShapeUnion where
+module Ch03.ShapeUnion where
 
 -- The discriminated union, p. 49
 -- 
