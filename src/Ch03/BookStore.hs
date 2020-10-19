@@ -67,6 +67,32 @@ bookTitle   (Book id title authors) = title
 bookAuthors (Book id title authors) = authors
 
 -- The wild card pattern, p. 53
+
 nicerID      (Book id _     _      ) = id
 nicerTitle   (Book _  title _      ) = title
 nicerAuthors (Book _  _     authors) = authors
+
+-- Record Syntax, p. 55
+
+-- For each of the fields, Haskell creates an accesor. For example:
+-- @customerID :: Customer -> CustomerID@
+
+data Customer = Customer { customerID :: CustomerID
+                         , customerName    :: String
+                         , customerAddress :: Address
+                         } deriving (Show)
+
+-- We can use traditional syntax to create a object
+customer1 = Customer 271828 "J.R. Hacker"
+            ["255 Syntax Ct",
+             "Milpitas, CA 95134",
+             "USA"]
+
+-- Or Record syntax
+customer2 = Customer { customerID = 271828
+                     , customerAddress = ["1048576 Disk Drive",
+                                          "Milpitas, CA 95134",
+                                          "USA"]
+                     , customerName = "Jane Q. Citzen"
+                     }
+

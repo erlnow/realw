@@ -14,6 +14,10 @@ Chapter 3: Defining Types, Streamlining Functions
 * src/Ch03/ShapeUnion.hs        (example from p. 49)
 * src/Ch03/Add.hs               (example from p. 50)
 * src/Ch03/Tuples.hs            (example from p. 52)
+* src/Ch03/BadPattern.hs        (example from p. 54)
+* src/Ch03/Nullable.hs          (example from p. 57)
+* src/Ch03/ListADT.hs           (example from p. 58)
+* src/Ch03/Tree.hs              (example from p. 58)
 
 ### Changed
 

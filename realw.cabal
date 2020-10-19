@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 6a542a019a9c7d2e167476b7480917980ea7a99035555509cb15df4f814b4efd
+-- hash: 1d83e43cc866b6f5dd87f6346139a770e9a5dc21f6bfc0d5d03a944f1e388d91
 
 name:           realw
 version:        0.1.0.3
@@ -41,11 +41,15 @@ library
       Ch02.ShortCircuit
       Ch03.Add
       Ch03.AlgebraicVector
+      Ch03.BadPattern
       Ch03.BookStore
       Ch03.Bool
       Ch03.Distinction
+      Ch03.ListADT
+      Ch03.Nullable
       Ch03.Roygbiv
       Ch03.ShapeUnion
+      Ch03.Tree
       Ch03.Tuples
       MyLib
   other-modules:
