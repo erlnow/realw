@@ -19,3 +19,9 @@ data List a = Cons a (List a)
 
 fromList (x:xs) = Cons x (fromList xs)
 fromList []     = Nil
+
+-- Exercise 1, p. 60
+-- Write the converse of @fromList@ for the @List@ type: a function
+-- that takes a @List a@ and generated @[a]@.
+toList (Cons x xs) = x : toList xs
+toList Nil         = []
