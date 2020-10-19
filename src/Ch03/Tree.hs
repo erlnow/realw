@@ -43,3 +43,20 @@ data Tree a = Node a (Tree a) (Tree a)
 -- }
 simpleTree = Node "parent" (Node "Left child" Empty Empty)
                            (Node "Right child" Empty Empty)
+
+-- Exercise 2, p. 60
+
+data MTree a = N a
+                    (Maybe (MTree a))
+                    (Maybe (MTree a))
+               deriving (Show)
+
+simpleTree' = N "hola"
+                Nothing
+                (Just (N "caracola"
+                      Nothing
+                      (Just (N "sin"
+                            Nothing
+                            (Just (N "cola"
+                                  Nothing
+                                  Nothing))))))
