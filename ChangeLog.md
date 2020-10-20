@@ -18,6 +18,10 @@ Chapter 3: Defining Types, Streamlining Functions
 * src/Ch03/Nullable.hs          (example from p. 57)
 * src/Ch03/ListADT.hs           (example from p. 58)
 * src/Ch03/Tree.hs              (example from p. 58)
+* src/Ch03/MySecond.hs          (example from p. 60)
+* src/Ch03/Lendings.hs          (example from p. 62)
+* src/Ch03/NestedLets.hs        (example from p. 62)
+* src/Ch03/LocalFunction.hs     (example from p. 64)
 
 ### Changed
 
