@@ -22,6 +22,13 @@ Chapter 3: Defining Types, Streamlining Functions
 * src/Ch03/Lendings.hs          (example from p. 62)
 * src/Ch03/NestedLets.hs        (example from p. 62)
 * src/Ch03/LocalFunction.hs     (example from p. 64)
+* misc/ch03/GlobalFunction.hs   (example from p. 64)
+* misc/ch03/BadIndent.hs        (example from p. 64)
+* src/Ch03/GoodIndent.hs        (example from p. 64)
+* misc/ch03/Indentation.hs      (example from p. 65)
+* src/Ch03/Letwere.hs           (example from p. 65)
+* src/Ch03/Braces.hs            (example from p. 66)
+
 
 ### Changed
 

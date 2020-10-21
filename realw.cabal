@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 98bb0416a076c8cddb254a9d9fc906c6beb090e43728db5eaf316660d5e8b43a
+-- hash: 0d31cc5670dbcd66bbfabe4f6a4a6810b98961edd7e64121162b7b0f5abc4bf7
 
 name:           realw
 version:        0.1.0.3
@@ -44,8 +44,12 @@ library
       Ch03.BadPattern
       Ch03.BookStore
       Ch03.Bool
+      Ch03.Braces
       Ch03.Distinction
+      Ch03.GlobalVariable
+      Ch03.GoodIndent
       Ch03.Lendings
+      Ch03.Letwhere
       Ch03.ListADT
       Ch03.LocalFunction
       Ch03.MySecond
