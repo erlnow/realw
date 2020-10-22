@@ -1,5 +1,16 @@
 # Revision history for realw
 
+
+## 0.1.3.2 -- 2020-10-22
+
+Fixed warnings
+
+### Changed
+
+* ChangeLog.md
+* package.yaml
+* realw.cabal
+
 ## 0.1.3.1 -- 2020-10-22
 
 Changed Version, now 0.1.<chapter>.<minor>
