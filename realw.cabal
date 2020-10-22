@@ -4,10 +4,10 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: f46ca134d33baf3332df8944080f21c881f3d6696090dc7c2e38a4d73d18a9ed
+-- hash: 65193492b01afd97fe1fa52ff24b1d169b815d11e1b2a517f992828d9c36e55b
 
 name:           realw
-version:        0.1.0.3
+version:        0.1.3.1
 synopsis:       Real World Haskell
 description:    Please see the README on GitHub at <https://github.com/erlnow/realh#readme>
 category:       Learning
@@ -42,6 +42,7 @@ library
       Ch03.Add
       Ch03.AlgebraicVector
       Ch03.BadPattern
+      Ch03.BadTree
       Ch03.BogusPattern
       Ch03.BookStore
       Ch03.Bool

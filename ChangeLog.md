@@ -1,6 +1,16 @@
 # Revision history for realw
 
-## 0.1.0.3 -- 2020-10-18
+## 0.1.3.1 -- 2020-10-22
+
+Changed Version, now 0.1.<chapter>.<minor>
+
+### Changed 
+
+* ChangeLog.md
+* package.yaml
+* realw.cabal
+
+## 0.1.0.3 -- 2020-10-22
 
 Chapter 3: Defining Types, Streamlining Functions
 
@@ -34,6 +44,7 @@ Chapter 3: Defining Types, Streamlining Functions
 
 ### Changed
 
+* src/Ch02/MyDrop.hs            (example from p. 69)
 * ChangeLog.md
 * package.yaml                  (new version)
 * realw.cabal
