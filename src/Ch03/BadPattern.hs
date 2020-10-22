@@ -15,7 +15,8 @@ module Ch03.BadPattern where
 -- from p. 54
 -- This function, when we apply to a value that it cannot match the pattern,
 -- will give an runtime error: "Exception: Non-exahustive pattern".
-badExample (x:xs) = x + badExample xs
+-- badExample (x:xs) = x + badExample xs
 
+goodExample :: Num a => [a] -> a
 goodExample (x:xs) = x + goodExample xs
 goodExample _      = 0

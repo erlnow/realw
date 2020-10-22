@@ -7,9 +7,10 @@ Fixed warnings
 
 ### Changed
 
-* src/Ch03/Add.hs       (added signatures to prevent -Wmissing-signatures)
-* src/Ch02/Add.hs       (removed)
-* src/Ch02/MyDrop.hs    (added signatures to prevent -Wmissing-signatures)
+* src/Ch03/BadPattern.hs (added signature, and comment bad definition)
+* src/Ch03/Add.hs        (added signatures to prevent -Wmissing-signatures)
+* src/Ch02/Add.hs        (removed)
+* src/Ch02/MyDrop.hs     (added signatures to prevent -Wmissing-signatures)
 * ChangeLog.md
 * package.yaml
 * realw.cabal
