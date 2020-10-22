@@ -12,7 +12,11 @@
 
 module Ch03.Distinction where
 
+-- added types definitions to prevent warnings complaints about it.
+
 -- Tuples, Algebraic Data Types, and When to Use Each, p. 46
+
+a, b :: (String, String)
 
 a = ("Porpoise", "Grey")
 b = ("Table", "Oak")
@@ -20,5 +24,8 @@ b = ("Table", "Oak")
 data Cetacean = Cetacean String String
 data Furniture = Furniture String String
 
+c :: Cetacean
 c = Cetacean "Porpoise" "Grey"
+
+d :: Furniture
 d = Furniture "Table" "Oak"
