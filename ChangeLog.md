@@ -7,12 +7,13 @@ Fixed warnings
 
 ### Changed
 
-* src/Ch03/BookStore.hs         (added signatures and comment first version accessor functions)
-* src/Ch03/BogusPattern.hs      (comment all definitions, defined a new function)
-* src/Ch03/BadPattern.hs        (added signature, and comment bad definition)
 * src/Ch03/Add.hs               (added signatures to prevent -Wmissing-signatures)
 * src/Ch02/Add.hs               (removed)
 * src/Ch02/MyDrop.hs            (added signatures to prevent -Wmissing-signatures)
+* src/Ch03/BadPattern.hs        (added signature, and comment bad definition)
+* src/Ch03/BogusPattern.hs      (comment all definitions, defined a new function)
+* src/Ch03/BookStore.hs         (added signatures and comment first version accessor functions)
+* src/Ch03/Braces.hs            (added signatures)
 * ChangeLog.md
 * package.yaml
 * realw.cabal
