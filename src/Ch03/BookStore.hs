@@ -22,6 +22,7 @@ data BookInfo = Book Int String [String]
 data MagazineInfo = Magazine Int String [String]
                     deriving (Show)
 
+myInfo :: BookInfo
 myInfo = Book 9780135072455 "Algebra of Programming"
               ["Richard Bird", "Oege de Moor"]
 
@@ -62,15 +63,23 @@ data BillingInfo = CreditCard CardNumber CardHolder Address
 -- Pattern Matching, p. 53
 -- Further Adventures
 
-bookID      (Book id title authors) = id
-bookTitle   (Book id title authors) = title
-bookAuthors (Book id title authors) = authors
+-- [-Wunused-matches] and [-Wmissing-signatures]
+-- `id` complaints [-Wname-shadowing]
+-- bookID      (Book id title authors) = id
+-- bookTitle   (Book id title authors) = title
+-- bookAuthors (Book id title authors) = authors
 
 -- The wild card pattern, p. 53
 
-nicerID      (Book id _     _      ) = id
-nicerTitle   (Book _  title _      ) = title
-nicerAuthors (Book _  _     authors) = authors
+-- added signatures and id changed to idb  
+nicerID :: BookInfo -> Int
+nicerID      (Book idb _ _) = idb
+
+nicerTitle :: BookInfo -> String
+nicerTitle   (Book _ title _) = title
+
+nicerAuthors :: BookInfo -> [String]
+nicerAuthors (Book _ _ authors) = authors
 
 -- Record Syntax, p. 55
 
@@ -83,6 +92,8 @@ data Customer = Customer { customerID :: CustomerID
                          } deriving (Show)
 
 -- We can use traditional syntax to create a object
+customer1, customer2 :: Customer
+
 customer1 = Customer 271828 "J.R. Hacker"
             ["255 Syntax Ct",
              "Milpitas, CA 95134",
@@ -95,4 +106,3 @@ customer2 = Customer { customerID = 271828
                                           "USA"]
                      , customerName = "Jane Q. Citzen"
                      }
-
