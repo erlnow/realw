@@ -28,6 +28,8 @@ Chapter 3: Defining Types, Streamlining Functions
 * misc/ch03/Indentation.hs      (example from p. 65)
 * src/Ch03/Letwere.hs           (example from p. 65)
 * src/Ch03/Braces.hs            (example from p. 66)
+* src/Ch03/Guard.hs             (example from pp. 66,67)
+* src/Ch03/BogusPattern.hs      (example from pp. 67,68)
 
 
 ### Changed
