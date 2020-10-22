@@ -14,7 +14,9 @@ module Ch03.BadPattern where
 
 -- from p. 54
 -- This function, when we apply to a value that it cannot match the pattern,
--- will give an runtime error: "Exception: Non-exahustive pattern".
+-- will give an runtime error: "Exception: Non-exahustive pattern". Comment out
+-- to test this example. GHC warns about "Patterns are non-exhaustive"
+-- [-Wincomplete-patterns]
 -- badExample (x:xs) = x + badExample xs
 
 goodExample :: Num a => [a] -> a
