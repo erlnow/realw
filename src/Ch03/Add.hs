@@ -12,13 +12,18 @@
 
 module Ch03.Add where
 
--- Defined in Chapter 2: Types and functions
+-- Note:
+-- Added function signatures to prevent [-Wmissing-signatures]
+
+-- Defined in Chapter 2: Types and functions, p. 28
 add :: Int -> Int -> Int
 add a b = a + b
 
 -- Pattern Matching, p. 50
+myNot :: Bool -> Bool
 myNot True  = False
 myNot False = True
 
+sumList :: Num a => [a] -> a
 sumList (x:xs) = x + sumList xs
 sumList []     = 0
