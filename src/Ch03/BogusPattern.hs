@@ -12,23 +12,40 @@
 
 module Ch03.BogusPattern where
 
+-- This module throws severals warnings, fixed
 -- pp. 67, 68
 
 data Fruit = Apple | Orange
 
+apple, orange :: String         -- [-Wmissing-signature]
 apple  = "apple"
 orange = "orange"
 
-wichFruit :: String -> Fruit
-wichFruit f = case f of
-                apple  -> Apple
-                orange -> Orange
+-- `whicFruit` has several warnings, for `apple` and `orange`
+--  * [-Wname-shadowing] 
+--  * [-Wunused-matches]
+--  and orange -> Orange complaint [-Woverlappling-pattern]
+--
+-- wichFruit :: String -> Fruit
+-- wichFruit f = case f of
+--                apple  -> Apple
+--                orange -> Orange
 
 -- in equational style:
-equational apple  = Apple
-equational orange = Orange
+--
+-- equational apple  = Apple
+-- equational orange = Orange
 
 -- corrected version
-betterFruit f = case f of
-                  "apple"  -> Apple
-                  "orange" -> Orange
+-- Added a signature but compaint about imcompleted patterns
+-- The solution could be defining a default fruit or the use of Maybe
+-- betterFruit :: [Char] -> Fruit
+-- betterFruit f = case f of
+--                   "apple"  -> Apple
+--                   "orange" -> Orange
+
+maybeFruit :: [Char] -> Maybe Fruit
+maybeFruit f = case f of
+                 "apple"   -> Just Apple
+                 "orange"  -> Just Orange
+                 _         -> Nothing
