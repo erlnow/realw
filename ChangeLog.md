@@ -21,6 +21,7 @@ Fixed warnings
 * src/Ch03/Lendings.hs          (added signatures)
 * src/Ch03/Letwhere.hs          (added signatures, removes -Wtypes-defaults also)
 * src/Ch03/ListADT.hs           (added signatures)
+* src/Ch03/NestedLets.hs        (added signatures and GHC pragma)
 * ChangeLog.md
 * package.yaml
 * realw.cabal
