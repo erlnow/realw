@@ -25,6 +25,7 @@ Fixed warnings
 * src/Ch03/Nullable.hs          (added signatures and `import hidding`)
 * src/Ch03/Tree.hs              (added signatures)
 * src/Ch03/BadTree.hs           (added signatures)
+* src/Ch03/Tuples.hs            (added signatures and GHC pragma)
 * ChangeLog.md
 * package.yaml
 * realw.cabal
