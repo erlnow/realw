@@ -23,6 +23,8 @@ Fixed warnings
 * src/Ch03/ListADT.hs           (added signatures)
 * src/Ch03/NestedLets.hs        (added signatures and GHC pragma)
 * src/Ch03/Nullable.hs          (added signatures and `import hidding`)
+* src/Ch03/Tree.hs              (added signatures)
+* src/Ch03/BadTree.hs           (added signatures)
 * ChangeLog.md
 * package.yaml
 * realw.cabal

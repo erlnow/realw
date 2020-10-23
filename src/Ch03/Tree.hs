@@ -41,6 +41,7 @@ data Tree a = Node a (Tree a) (Tree a)
 --                new Tree<String>("right leaf", null null));
 --      }
 -- }
+simpleTree :: Tree String
 simpleTree = Node "parent" (Node "Left child" Empty Empty)
                            (Node "Right child" Empty Empty)
 
@@ -51,6 +52,7 @@ data MTree a = N a
                     (Maybe (MTree a))
                deriving (Show)
 
+simpleTree' :: MTree String
 simpleTree' = N "hola"
                 Nothing
                 (Just (N "caracola"
