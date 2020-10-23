@@ -1,6 +1,6 @@
 -- |
 -- Module      :  Ch03.MyLength
--- Description :  Exercise 1 - function like `lenght`
+-- Description :  Exercise 1 & 2 - function like `lenght`
 -- Copyright   :  erlnow 2020 - 2030
 -- License     :  BSD3
 --
@@ -8,20 +8,7 @@
 -- Stability   :  experimental
 -- Portability :  unknown
 --
--- Exercise 1 from Chapter 3: Defining Types, Streamlining Functions
--- 
--- Note to run tests:
---
--- @
---      $ cabal new-run spec
--- @
---
--- or in @ghci@:
---
--- @
---      $ cabal new-repl spec
---      ghci> hspec Ch03.MyLengthSpec.spec
--- @
+-- Exercise 1 and 2 from Chapter 3: Defining Types, Streamlining Functions
 
 module Ch03.MyLength where
 
@@ -31,6 +18,13 @@ module Ch03.MyLength where
 --
 -- Write a function that computes the number of elements in a list. To test it,
 -- ensure that it gives the same answers as the standard 'length' function.
+
+-- *Exercise 2, p. 70
+--
+-- $ex2
+--
+-- Add a type signature for your fuction to your source file. To test it, load
+-- the source file in __`ghci`__ again.
 
 -- |Computes the number of elements in a list
 --
