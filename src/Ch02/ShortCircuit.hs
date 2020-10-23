@@ -18,6 +18,7 @@ module Ch02.ShortCircuit where
 -- will not evaluate the second argument
 --
 -- >>> newOr True (length [1..] > 0)
+-- True
 newOr :: Bool -> Bool -> Bool
 newOr a b = if a then a else b
 
