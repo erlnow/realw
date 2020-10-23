@@ -14,11 +14,15 @@
 
 module Ch03.Letwhere where
 
+bar :: (Integer, Bool)  -- added signature to remove [-Wmissing-signatures] warning
+                        -- removes [-Wtype-defaults] also
 bar = let b = 2
           c = True
        in let a = b
            in (a, c)
 
+foo :: Integer          -- added signature to remove [-Wmissing-signatures] warning
+                        -- removes [-Wtype-defaults] also
 
 foo = x
   where x = y

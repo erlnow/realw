@@ -18,7 +18,9 @@ Fixed warnings
 * src/Ch03/GlobalVariable.hs    (added signatures)
 * src/Ch03/GoodIndent.hs        (added signatures, removes -Wtypes-defaults also) 
 * src/Ch03/Guard.hs             (added signatures)
-* src/Ch03/Lendings.hs             (added signatures)
+* src/Ch03/Lendings.hs          (added signatures)
+* src/Ch03/Letwhere.hs          (added signatures, removes -Wtypes-defaults also)
+* src/Ch03/ListADT.hs           (added signatures)
 * ChangeLog.md
 * package.yaml
 * realw.cabal

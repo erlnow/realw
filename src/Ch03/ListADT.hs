@@ -17,11 +17,13 @@ data List a = Cons a (List a)
             | Nil
             deriving (Show)
 
+fromList :: [a] -> List a       -- added signature to remove [-Wmissing-signatures]
 fromList (x:xs) = Cons x (fromList xs)
 fromList []     = Nil
 
 -- Exercise 1, p. 60
 -- Write the converse of @fromList@ for the @List@ type: a function
 -- that takes a @List a@ and generated @[a]@.
+toList :: List a -> [a]       -- added signature to remove [-Wmissing-signatures]
 toList (Cons x xs) = x : toList xs
 toList Nil         = []
