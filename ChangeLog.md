@@ -1,7 +1,7 @@
 # Revision history for realw
 
 
-## 0.1.3.2 -- 2020-10-22
+## 0.1.3.2 -- 2020-10-23
 
 Fixed warnings
 
@@ -15,6 +15,10 @@ Fixed warnings
 * src/Ch03/BookStore.hs         (added signatures and comment first version accessor functions)
 * src/Ch03/Braces.hs            (added signatures, removes -Wtypes-defaults also)
 * src/Ch03/Distinction.hs       (added signatures)
+* src/Ch03/GlobalVariable.hs    (added signatures)
+* src/Ch03/GoodIndent.hs        (added signatures, removes -Wtypes-defaults also) 
+* src/Ch03/Guard.hs             (added signatures)
+* src/Ch03/Lendings.hs             (added signatures)
 * ChangeLog.md
 * package.yaml
 * realw.cabal

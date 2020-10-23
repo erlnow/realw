@@ -13,6 +13,7 @@
 module Ch03.Guard where
 
 -- from pp. 66,67
+fromMaybe :: t -> Maybe t -> t          -- added a signature
 fromMaybe defval wrapped =
   case wrapped of
     Nothing    -> defval

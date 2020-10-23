@@ -12,5 +12,7 @@
 
 module Ch03.GlobalVariable where
 
+-- added a signature
 
+itemName :: String
 itemName = "Weighted Companion Cube"

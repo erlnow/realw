@@ -1,6 +1,6 @@
 -- |
 -- Module      :  Ch03.Lendings
--- Description :  Introducing Local Variables
+-- Description :  Doubleroducing Local Variables
 -- Copyright   :  erlnow 2020 - 2030
 -- License     :  BSD3
 --
@@ -12,14 +12,16 @@
 
 module Ch03.Lendings where
 
--- Introducing Local Variables, p. 62
+-- Doubleroducing Local Variables, p. 62
 
+lend :: Double -> Double -> Maybe Double
 lend amount balance = let reserve = 100
                           newBalance = balance - amount
                        in if balance < reserve
                              then Nothing
                              else Just newBalance
 
+lend2 :: Double -> Double -> Maybe Double
 lend2 amount balance = if amount < reserve * 0.5
                           then Just newBalance
                           else Nothing
@@ -27,6 +29,7 @@ lend2 amount balance = if amount < reserve * 0.5
                                   newBalance = balance - amount
 
 -- Conditional Evaluation With Guards, p. 69
+lend3 :: Double -> Double -> Maybe Double
 lend3 amount balance
   | amount <= 0            = Nothing
   | amount > reserve * 0.5 = Nothing

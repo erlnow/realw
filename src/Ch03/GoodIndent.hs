@@ -12,8 +12,11 @@
 
 module Ch03.GoodIndent where
 
+-- added signatures
+
 -- p. 64
 
+  firstGoodIndetantion, secondGoodIndentation :: Int
 
   -- It's fine for top-level declarations to start in any column...
   firstGoodIndetantion = 1
