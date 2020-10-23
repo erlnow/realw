@@ -22,6 +22,7 @@ Fixed warnings
 * src/Ch03/Letwhere.hs          (added signatures, removes -Wtypes-defaults also)
 * src/Ch03/ListADT.hs           (added signatures)
 * src/Ch03/NestedLets.hs        (added signatures and GHC pragma)
+* src/Ch03/Nullable.hs          (added signatures and `import hidding`)
 * ChangeLog.md
 * package.yaml
 * realw.cabal
