@@ -1,6 +1,6 @@
 -- |
 -- Module      :  Ch03.Intersperse
--- Description :  Exercise 7
+-- Description :  Exercise 7 & 8
 -- Copyright   :  erlnow 2020 - 2030
 -- License     :  BSD3
 --
@@ -8,7 +8,7 @@
 -- Stability   :  experimental
 -- Portability :  unknown
 --
--- Exercise 7 from Chapter 3: Defining Types, Streamlining Functions
+-- Exercise 7 and 8 from Chapter 3: Defining Types, Streamlining Functions
 
 module Ch03.Intersperse where
 
