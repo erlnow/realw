@@ -1,6 +1,19 @@
 # Revision history for realw
 
 
+## 0.1.3.3 -- 2020-10-23
+
+Exercises from Chapter 3
+
+### Changed 
+
+* src/Ch03/MyLength.hs          (Exercises 1 & 2)
+* src/Ch03/MeanList.hs          (Exercise 3)
+* src/Ch02/ShortCircuit.hs      (fix haddock doctest comment)
+* ChangeLog.md
+* package.yaml
+* realw.cabal
+
 ## 0.1.3.2 -- 2020-10-23
 
 Fixed warnings
