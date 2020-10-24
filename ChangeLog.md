@@ -11,6 +11,7 @@ Exercises from Chapter 3
 * src/Ch03/MeanList.hs          (Exercise 3)
 * src/Ch03/Palindrome.hs        (Exercise 4 & 5)
 * src/Ch03/SortByLength.hs      (Exercise 6)
+* src/Ch03/Intersperse.hs       (Exercises 7 and 8)
 * src/Ch02/ShortCircuit.hs      (fix haddock doctest comment)
 * ChangeLog.md
 * package.yaml
