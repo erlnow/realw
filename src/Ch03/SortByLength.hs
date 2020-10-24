@@ -25,6 +25,7 @@ import Data.List (sortBy)
 -- |Sort a list of lists by the length of each sublist.
 --
 -- Example:
+--
 -- >>> sortByLength [[1,2], [3,4,5], [6], [7,8],[9..15]]
 -- [[6],[1,2],[7,8],[3,4,5],[9,10,11,12,13,14,15]]
 sortByLength :: [[a]] -> [[a]]
