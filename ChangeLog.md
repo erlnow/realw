@@ -9,6 +9,7 @@ Exercises from Chapter 3
 
 * src/Ch03/MyLength.hs          (Exercises 1 & 2)
 * src/Ch03/MeanList.hs          (Exercise 3)
+* src/Ch03/Palindrome.hs        (Exercise 4 & 5)
 * src/Ch02/ShortCircuit.hs      (fix haddock doctest comment)
 * ChangeLog.md
 * package.yaml
