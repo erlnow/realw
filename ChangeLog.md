@@ -1,7 +1,7 @@
 # Revision history for realw
 
 
-## 0.1.3.3 -- 2020-10-23
+## 0.1.3.3 -- 2020-10-24
 
 Exercises from Chapter 3
 
@@ -10,6 +10,7 @@ Exercises from Chapter 3
 * src/Ch03/MyLength.hs          (Exercises 1 & 2)
 * src/Ch03/MeanList.hs          (Exercise 3)
 * src/Ch03/Palindrome.hs        (Exercise 4 & 5)
+* src/Ch03/SortByLength.hs      (Exercise 6)
 * src/Ch02/ShortCircuit.hs      (fix haddock doctest comment)
 * ChangeLog.md
 * package.yaml
