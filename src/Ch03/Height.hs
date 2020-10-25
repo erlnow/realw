@@ -22,7 +22,7 @@ import Ch03.Tree        -- Tree definition
 -- function that will determine the height of the tree. the height is the
 -- largest number of hops from root to an @Empty@. For example, the tree
 -- @Empty@ has height zero; @Node "x" Empty Empty@ has height one; @Node "x"
--- Empty (Node "y" Empty Empty) has height two; and so.
+-- Empty (Node "y" Empty Empty)@ has height two; and so.
 
 -- |Computes the height of a 'Tree'. The height is the largest number of
 -- hops from root to an @Empty@.
