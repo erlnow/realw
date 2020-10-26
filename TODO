@@ -1,1 +1,2 @@
-* parse arguments ["-l","-c","-w"] in WC.hs in order to better mimic `wc`.
+[ ] parse arguments ["-l","-c","-w"] in WC.hs in order to better mimic `wc`.
+[ ] Finish exercise 13, Chapter 3: Graham scan algorithm
